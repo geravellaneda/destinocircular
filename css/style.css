@@ -1,6 +1,6 @@
 /* === IMPORT FONTS === */
 @import url("https://use.typekit.net/ezt5cpi.css");
-@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 /* === COLORS REFERENCE ===
 
@@ -23,7 +23,7 @@ html {
 }
 
 * {
-	font-family: 'Marcellus', serif;
+	font-family: 'Press Start 2P', cursive;
 	font-weight: 400;
 	font-style: normal;
 	box-sizing: border-box;
@@ -45,9 +45,9 @@ body {
 	/* === FONT SIZES === */
 
 	h1, .text-xl {
-		font-size: 5rem;
-		line-height: 5.5rem;
-		margin: 1rem 0;
+		font-size: 1rem;
+		line-height: 1.4rem;
+		margin: 1rem;
 	}
 
 	h2 {
@@ -113,18 +113,18 @@ body {
 	/* DEFAULT PARAGRAPH */
 
 	p {
-		font-family: adelle-sans, sans-serif;
-		font-weight: 300;
-		font-style: normal;
+
 		font-size: 1rem;
-	    line-height: 1.3rem;
-	    letter-spacing: -.02rem;
+	    line-height: 1.6rem;
+
 	}
 
 	/* LINKS */
 
 	a {
 		text-decoration: none;
+		display: block;
+		margin: .5rem 1rem;
 	}
 
 		a:hover {
@@ -252,4 +252,10 @@ body {
 	position: absolute;
 	bottom: 10px;
 	right: 10px;
+}
+
+.flip {
+	  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+
 }
