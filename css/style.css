@@ -123,6 +123,8 @@ body {
 
 	a {
 		text-decoration: none;
+	}
+	a.link{
 		display: block;
 		margin: 0 1rem .5rem;
 	}
